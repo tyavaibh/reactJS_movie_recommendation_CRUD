@@ -59,10 +59,10 @@ class Movies extends Component{
 
         return (
             <>
-            <h3>Filter genre of your choice !</h3>
+            <h3 style={{textAlign: 'center'}}>Filter genre of your choice !</h3>
             <br />
 
-            <select onChange={this.handleGenre} name="genre" id="genre">
+            <select style={{position: 'absolute',left:"46%"}} onChange={this.handleGenre} name="genre" id="genre">
             <option value="All">All</option>
                 <option value="Thriller">Thriller</option>
                 <option value="Comedy">Comedy</option>
