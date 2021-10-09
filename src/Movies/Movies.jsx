@@ -63,7 +63,7 @@ class Movies extends Component{
             <br />
 
             <select style={{position: 'absolute',left:"46%"}} onChange={this.handleGenre} name="genre" id="genre">
-            <option value="All">All</option>
+                <option value="All">All</option>
                 <option value="Thriller">Thriller</option>
                 <option value="Comedy">Comedy</option>
                 <option value="Action">Action</option>
@@ -106,7 +106,7 @@ class Movies extends Component{
 
                 </>
 
-                : <h1>There are no movies to display.</h1> }
+                : <h1 style={{textAlign: 'center'}}>There are no movies to display!!!</h1> }
             </>
         )
     }
